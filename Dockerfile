@@ -1,3 +1,3 @@
 FROM openjdk:8
-ADD ./target/springticket.jar springticket.jar
-CMD ["java","-jar","springticket.jar"]
+ADD ./demo-docker/docker_spring.jar docker_spring.jar 
+CMD ["java","-jar","docker_spring.jar"]
